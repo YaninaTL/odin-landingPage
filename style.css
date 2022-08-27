@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div.header {
+    background-color: blue;
+    width: 100%;
+    height: auto;
+}
+div.logo img {
+    display: inline-flex;
+    width: 70px;
+    max-width: 70px;
+    height: auto;
+    margin: 20px 40px;
+}
+
+
+ul {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+a {
+    display: inline;
+    color: skyblue;
+    text-decoration: none;
+    
+}
