@@ -1,9 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Play', sans-serif
 }
-div.header {
+
+
+/* Styling header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+
+}
+
+
+li, a, button {
+    font-size: 1.125rem;
+    color: skyblue;
+    list-style: none;
+    text-decoration: none;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.links li {
+    display: inline-block;
+    padding: 0 20px;
+
+}
+
+/* div.header {
     background-color: blue;
     width: 100%;
     height: auto;
@@ -27,4 +60,4 @@ a {
     color: skyblue;
     text-decoration: none;
     
-}
+} */
