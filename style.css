@@ -62,11 +62,35 @@ button {
 
 button:hover {
 border: 2px solid skyblue;
+color: azure;
 }
 
-/* Add color to nav bar */
+/* Styling main*/
 
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: midnightblue;
+}
 
+h1, p {
+    color: azure;
+}
+
+h1 {
+    font-size: 2.3rem;
+}
+
+p {
+    max-width: 600px;
+}
+
+div, button {
+    margin: 10px;
+}
 
 
 /* div.header {
