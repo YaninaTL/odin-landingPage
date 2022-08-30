@@ -69,7 +69,7 @@ color: azure;
 main {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
     background-color: midnightblue;
@@ -81,7 +81,7 @@ h1, p {
 
 h1 {
     font-size: 2.3rem;
-    transition: transform .2s, text-shadow .2s;;
+    transition: transform .2s, text-shadow .2s;
 }
 h1:hover {
     transform: scale(1.2);
@@ -105,32 +105,55 @@ main > div > img {
 
 main > div > img:hover {
     transform: scale(1.01);
-
 }
 
+/* Styling info */
 
-/* div.header {
-    background-color: blue;
-    width: 100%;
-    height: auto;
-}
-div.logo img {
-    display: inline-flex;
-    width: 70px;
-    max-width: 70px;
-    height: auto;
-    margin: 20px 40px;
+div.info {
+    background-color: azure;
+    color: black;
+    display: block;
+    text-align: center;
 }
 
+h2 {
+    font-size: 1.7rem;
+    text-align: center;
+    margin: 50px auto 20px;
+    display: block;
+}
 
-ul {
+div.container {
     display: flex;
-    gap: 16px;
-    list-style: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2;
+    justify-content: center;
 }
-a {
-    display: inline;
-    color: skyblue;
-    text-decoration: none;
+.container1 {
+    display:inline-block;
+}
+    .container2 {
+    display: inline-block; 
+}
+
+        .container3 {
+    display: inline-block;
+}
+
+        .container4 {
+    display: inline-block; 
+}
+
+
+    .img1,.img2,.img3,.img4 {
+    border: 3px solid  skyblue;
+    border-radius: 8px;
+    width: 140px;
+    height: 140px;
+    }
+
+    .img1 {
+        display: block;
+    }
     
-} */
