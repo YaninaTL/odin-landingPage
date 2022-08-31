@@ -73,25 +73,25 @@ main {
     align-items: center;
     padding: 30px 10%;
     background-color: midnightblue;
-}
-
-h1, p {
     color: azure;
 }
+
 
 h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
     transition: transform .2s, text-shadow .2s;
+    font-weight: 900;
 }
 h1:hover {
     transform: scale(1.2);
     text-shadow: 2px 2px orange;
 }
 
-p {
+.main {
     max-width: 600px;
     margin-bottom: 5px;
+    color: azure;
 }
 
 div, button {
@@ -131,6 +131,7 @@ div.container {
     flex-wrap: wrap;
     gap: 2;
     justify-content: center;
+    margin: 0;
 }
 .container1,.container2,.container3,.container4 {
     display: inline-block; 
@@ -168,6 +169,8 @@ h3, a:hover {
 #moto {
     background-color: midnightblue;
     padding: 50px;
+    display: block;
+    margin: 0;
     
 }
 p.moto {
@@ -176,8 +179,41 @@ p.moto {
     letter-spacing: 0.06rem;
     word-spacing: 0.2rem;
     font-size: 1.2rem;
+    max-width: 600px;
 }
 
 p > span {
     font-weight: bold;
 }
+
+/* Styling cta block */
+
+div.cta-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;    
+}
+
+.cta-block > h3, p {
+    color: black;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.cta-block > h3 {
+    font-weight: 600;
+}
+
+/* Styling footer */
+
+footer {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+
+/* Need to make the img responsive */
+/* Need to get rid of scrolling bar */
+/* Need to add media */
