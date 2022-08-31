@@ -102,7 +102,7 @@ main > div > img {
     border: 3px solid skyblue;
     display: block;
     border-radius: 50px;
-    transition: transform .2s;
+    transition: transform .2s ease 0s;
 }
 
 main > div > img:hover {
@@ -112,7 +112,7 @@ main > div > img:hover {
 /* Styling info */
 
 div.info {
-    background-color: azure;
+    background-color: white;
     color: black;
     display: block;
     text-align: center;
@@ -142,7 +142,7 @@ div.container {
     width: 140px;
     height: 140px;
     display: block;
-    transition: transform .2s;
+    transition: transform .2s ease 0s;
     }
 
 .img1:hover,.img2:hover,.img3:hover,.img4:hover {
@@ -163,6 +163,21 @@ h3, a:hover {
     color: orange;
 }
 
+/* Styling quotation */
 
-    /* Add more space btw elements */
-    /* Add transition to img and dummy links */
+#moto {
+    background-color: midnightblue;
+    padding: 50px;
+    
+}
+p.moto {
+    color: orange;
+    margin: 30px auto;
+    letter-spacing: 0.06rem;
+    word-spacing: 0.2rem;
+    font-size: 1.2rem;
+}
+
+p > span {
+    font-weight: bold;
+}
