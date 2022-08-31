@@ -80,7 +80,8 @@ h1, p {
 }
 
 h1 {
-    font-size: 2.3rem;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
     transition: transform .2s, text-shadow .2s;
 }
 h1:hover {
@@ -90,6 +91,7 @@ h1:hover {
 
 p {
     max-width: 600px;
+    margin-bottom: 5px;
 }
 
 div, button {
@@ -130,30 +132,37 @@ div.container {
     gap: 2;
     justify-content: center;
 }
-.container1 {
-    display:inline-block;
-}
-    .container2 {
+.container1,.container2,.container3,.container4 {
     display: inline-block; 
 }
-
-        .container3 {
-    display: inline-block;
-}
-
-        .container4 {
-    display: inline-block; 
-}
-
 
     .img1,.img2,.img3,.img4 {
     border: 3px solid  skyblue;
     border-radius: 8px;
     width: 140px;
     height: 140px;
+    display: block;
+    transition: transform .2s;
     }
 
-    .img1 {
-        display: block;
-    }
-    
+.img1:hover,.img2:hover,.img3:hover,.img4:hover {
+    transform: scale(1.01);
+}
+
+h3 {
+    margin-top: 10px;
+}
+
+h3 > a {
+font-size: 1.2rem;
+color: black;
+transition: all 0.3s ease 0s;
+}
+
+h3, a:hover {
+    color: orange;
+}
+
+
+    /* Add more space btw elements */
+    /* Add transition to img and dummy links */
