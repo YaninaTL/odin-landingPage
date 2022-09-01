@@ -10,13 +10,14 @@ body {
     width: 100vw;
     height: 100vh;
     font-family: 'Play', sans-serif;
+    overflow-x: hidden;
 }
 
 /* Styling header */
 
 header {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
     align-items: center;
     padding: 5px 10% 10px 10%;
@@ -98,9 +99,12 @@ div, button {
     margin: 10px;
 }
 
-main > div > img {
+/* main > div > img { */
+    .banner {
     border: 3px solid skyblue;
     display: block;
+    max-width: 600px;
+    height: auto;
     border-radius: 50px;
     transition: transform .2s ease 0s;
 }
@@ -210,10 +214,19 @@ div.cta-block {
 
 footer {
     margin-top: 50px;
-    margin-bottom: 20px;
+    }
+
+    #footer {
+        padding: 20px;
+    }
+
+
+
+@media only screen and (max-width: 600px) {
+
+.banner {
+    max-width: 400px;
+    height: auto;
 }
 
-
-/* Need to make the img responsive */
-/* Need to get rid of scrolling bar */
-/* Need to add media */
+}
