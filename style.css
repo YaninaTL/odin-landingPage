@@ -222,11 +222,46 @@ footer {
 
 
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
 
 .banner {
-    max-width: 400px;
+    width: 100%;
     height: auto;
 }
+header {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+ul {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+}
+
+a.cta {
+    display: flex;
+    margin-left: auto;
+}
+
+.logo {
+    display: flex;
+   }
+
+main > a.cta {
+    display: flex;
+    margin: auto;
+}
+
+.trans {
+    background-color: rgba(240, 248, 255, 0.2);
+    color: aliceblue;
+}
+
+.trans1 {
+color: black;
+background-color: rgba(255, 166, 0, 0.4);
+
+}
 }
